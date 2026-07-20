@@ -42,7 +42,56 @@ body{
 
 
 .intro{
+    position: absolute;
+    left: 36%;
+    top:  37%;
+    font-family: "League Spartan", sans-serif;
+    font-weight:600;
+    color: white;
+    font-size: 50px;
+}
 
-
+.second{
+    position: absolute;
+    text-align: center;
+    left: 43%;
+    top: 50%;
+    font-family: "League Spartan", sans-serif;
+    font-weight:400;
     color: white
+
+}
+
+.deepson{
+    color: aquamarine;
+    text-shadow: 0px 0px 6px aquamarine;
+}
+
+.about_me{
+    position: absolute;
+    left: 47%;
+    top: 60%;
+    height: 50px;
+    width: 100px;
+    border-radius: 12px;
+    background-color: antiquewhite;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "league Spartan" sans-serif;
+    color:rgb(0, 0, 0);
+
+
+    box-shadow: 0 0 5px rgb(147, 231, 138);
+    transition: 0.2s ease;
+
+}
+
+.about_me:hover{
+    transform: scale(1.07);
+
+}
+
+.about_me:active{
+    transform: scale(0.999);
+    box-shadow: 0 0 30px rgb(54, 255, 77);
 }
