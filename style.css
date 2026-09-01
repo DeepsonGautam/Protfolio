@@ -8,17 +8,18 @@ body{
 }
 
 .navbar{
-    background-color: wheat;
+    background-color: #1A1A1A;
     display: flex;
     position: fixed;
-    top: 40%;
-    height: 200px;
-    width: 30px;
+    left: 20px;
+    top: 30%;
+    height: 300px;
+    width: 40px;
     border-radius: 12px;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    box-shadow: 0px 0px 10px wheat;
+    box-shadow: 0px 0px 10px rgb(159, 224, 216);
     transition: 0.4s ease;
 
 }
@@ -28,15 +29,16 @@ body{
 
     transform: scale(1.1);
 }
+
+
 .navbar img{
-    height: 30px;
-    width: 30px;    
+    height: 35px;
+    width: 35px;    
     transition: 0.2s ease;
 }
 
 .navbar img:hover{
 
-    
     transform: scale(1.2);
 }
 
@@ -74,14 +76,15 @@ body{
     height: 50px;
     width: 100px;
     border-radius: 12px;
-    background-color: antiquewhite;
+    background-color: rgb(159, 224, 216);
+    border-color: aquamarine;
     font-size: 20px;
     font-weight: 700;
-    font-family: "league Spartan" sans-serif;
+    font-family: "league Spartan", sans-serif;
     color:rgb(0, 0, 0);
 
 
-    box-shadow: 0 0 5px rgb(147, 231, 138);
+    box-shadow: 0 0 7px rgb(147, 231, 138);
     transition: 0.2s ease;
 
 }
@@ -94,4 +97,124 @@ body{
 .about_me:active{
     transform: scale(0.999);
     box-shadow: 0 0 30px rgb(54, 255, 77);
+}
+
+
+.information{
+    margin-top: 900px;
+    display: flex;
+    margin-left: 200px;
+    margin-bottom: 200px;
+    height: 200px;
+    width: 1000px;
+    
+    
+    flex-direction: column;
+}
+
+.name{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 100px;
+    color: aliceblue;
+
+}
+
+.explain{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 40px;
+    color: aliceblue;
+
+
+}
+
+.maize{
+
+    color: rgb(255, 255, 0);
+    margin: 50px;
+    width: 200px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 100px;
+    font-size: 30px;
+    background-color: rgb(59, 56, 56);
+    border-radius: 12px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgb(159, 224, 216);
+    transition: 0.2s ease;
+}
+
+.maize:hover{
+    transform: scale(1.07);
+}
+.tag{
+    color: rgb(255, 0, 255);
+    margin: 50px;
+    width: 200px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 100px;
+    font-size: 30px;
+    background-color: rgb(59, 56, 56);
+    border-radius: 12px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgb(159, 224, 216);
+    transition: 0.2s ease;
+}
+.tag:hover{
+    transform: scale(1.07);
+}
+
+.runner{
+    color: rgb(0, 255, 255);
+    margin: 50px;
+    font-size: 30px;
+    width: 200px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 100px;
+    background-color: rgb(59, 56, 56);
+    border-radius: 12px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgb(159, 224, 216);
+    transition: 0.2s ease;
+}
+.runner:hover{
+    transform: scale(1.07);
+}
+
+
+.projects{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 200px;
+    margin-bottom: 200px;
+    height: 200px;
+    width: 1000px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.projects-heading{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 200px;
+    width: 1000px;
+    top: 1200px;
+    font-family: "League Spartan", sans-serif;
+    font-weight:600;
+    color: white;
+    font-size: 50px;
+
 }
