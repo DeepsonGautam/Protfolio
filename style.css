@@ -295,7 +295,7 @@ body{
 .contact-info{
     margin-top: 100px;
     display: flex;
-    margin-left: 500px;
+    margin-left: 501px;
     margin-bottom: 200px;
     height: 100px;
     width: 700px;
@@ -308,7 +308,7 @@ body{
 
     top: 3000px;
     height: 200px;
-    width: 200px;
+    width: 300px;
 
 }
 
